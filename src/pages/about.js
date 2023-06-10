@@ -4,7 +4,7 @@ import React from 'react'
 function about() {
   return (
     <Layout pageTitle="Sobre mí" description="Un poco más sobre Carolina Romero">
-      <p>Sobre mí</p>
+      <p>Sobre mi</p>
     </Layout>
   )
 }
