@@ -1,12 +1,14 @@
+import AboutMe from '@/components/AboutMe'
 import Layout from '@/components/Layout'
 import React from 'react'
 
-function about() {
+
+const About = () => {
   return (
     <Layout pageTitle="Sobre mí" description="Un poco más sobre Carolina Romero">
-      <p>Sobre mi</p>
+        <AboutMe/>
     </Layout>
   )
 }
 
-export default about
+export default About
